@@ -6,6 +6,7 @@ namespace CSharp_lessons
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите номер класса");
             int n = Convert.ToInt32(Console.ReadLine());
             string clas;
             switch (n)
